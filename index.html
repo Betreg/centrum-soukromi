@@ -22,8 +22,15 @@
         }
     </script>
     <style>
-      @import url("https://betreg.github.io/fonts/css/inter.css");
-      @import url("https://betreg.github.io/fonts/css/plus-jakarta.css");
+        @font-face {
+            font-family: 'Plus Jakarta Sans';
+            src: url('https://font.betreg.org/fonts/plus-jakarta/PlusJakartaSans-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Inter';
+            src: url('https://font.betreg.org/fonts/inter/Inter-Regular.woff2') format('truetype');
+        }
 
       :root {
         --light: #d8d8d8;
@@ -54,7 +61,7 @@
       h4,
       h5,
       h6 {
-        font-family: "PlusJakartaSans-Medium";
+        font-family: "Plus Jakarta Sans";
         line-height: 1;
       }
       a {
